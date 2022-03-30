@@ -1,0 +1,671 @@
+.time_choose {
+    width: 100%;
+    min-height: 200px;
+    background: #00a5ca;
+    float: left;
+}
+
+.bg_banner {
+    width: 100%;
+    min-height: 360px;
+    background: url(../img/switch-banner.png) no-repeat right center;
+    display: flex;
+    align-items: center;
+}
+
+.kursa_qeydiyyat {
+    width: 800px;
+    min-height: 250px;
+    /* background-color: red; */
+    float: left;
+}
+
+.kursa_qeydiyyat_metni {
+    width: 100%;
+    float: left;
+    color: white;
+}
+
+.kursa_qeydiyyat_metni strong {
+    font-size: 18px;
+}
+
+.kursa_qeydiyyat_metni h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.4;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.kursa_qeydiyyat_input input {
+    margin: 25px 0 15px 0;
+    padding: 0 20px;
+    width: 100%;
+    height: 42px;
+    background: #fff;
+    background: linear-gradient(241.45deg, #ffffff 0%, #fdfeff 102.2%);
+    border: 1px solid #c8d2d9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    outline: 0;
+    font-size: 16px;
+    width: 85%;
+}
+
+.kursa_baslama_vaxti {
+    width: 85%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ders_metodu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    float: left;
+}
+
+.ders_metodu p {
+    font-size: 12px;
+}
+
+.ders_metodu select {
+    color: black;
+    outline: 0;
+}
+
+.rButtom {
+    margin-top: 25px;
+    width: 100%;
+    height: 42px;
+    color: #fff;
+    font-size: 14px;
+    background: #003356;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.rButtom:hover {
+    background: #002136;
+}
+
+.Buttom_650 {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #003356;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Buttom_650 a {
+    text-decoration: none;
+    color: white;
+}
+
+.Buttom_650:hover {
+    background-color: #002136;
+}
+
+.rClear_650 {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.razrishenni_650 {
+    min-width: 113px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #fff;
+}
+
+.razrishenni_650 a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.razrishenni_650::after {
+    content: url(../img/icon-arrow-switch.svg);
+    margin-left: 8px;
+}
+
+.rMargin {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.rMargin a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* <!-- /////////////////kursun tablari..////// --> */
+
+.noBottomBorder {
+    border-bottom: none;
+    margin-top: 15px;
+    float: right;
+}
+
+.container h1 {
+    display: inline;
+}
+
+.borderBottomActive {
+    border-bottom: 2px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: none;
+    border-bottom: 4px solid #2580c3;
+    padding-bottom: 5px;
+}
+
+.nav-tabs>li>a:hover {
+    border: 1px solid transparent;
+    background: white;
+}
+
+.mainDivTop20 {
+    margin-top: 20px;
+}
+
+.noBottomBorder li {
+    padding: 0 8px !important;
+    height: 13px;
+    float: left;
+    border-left: 1px solid #c4c4c4;
+    margin-bottom: 4px;
+}
+
+.noBottomBorder li:first-child {
+    border-left: none;
+}
+
+.noBottomBorder li a {
+    color: black;
+    padding: 0px 0px;
+    border-radius: 0px !important;
+    margin-top: -5px;
+}
+
+
+/* /////////////////// courses Start //////////////////////////// */
+
+.mainMenu {
+    width: 100%;
+    min-height: 300px;
+    float: left;
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 25%);
+    margin-bottom: 20px;
+    padding-bottom: 24px;
+}
+
+.coursesTag {
+    padding: 5px 10px;
+    color: #004677;
+}
+
+.mainMenu ul {
+    float: left;
+    width: 245px;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    margin-right: 31px;
+}
+
+.mainMenu ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin: 20px 0px;
+}
+
+.mainMenu ul li a {
+    color: black;
+    font-size: 14px;
+    line-height: 1.3;
+    color: gray;
+}
+
+.mainMenu ul li a:hover {
+    color: #2580c3;
+}
+
+.border_left_red {
+    border-left: 8px solid #ff6765;
+}
+
+.border_left_orange {
+    border-left: 8px solid #ffa565;
+}
+
+.border_left_green {
+    border-left: 8px solid #84ff65;
+}
+
+.border_left_blue {
+    border-left: 8px solid #517f8e;
+}
+
+.border_left_black {
+    border-left: 8px solid black;
+}
+
+
+/* <!-- /////////////////kursun tablari.. qurtardi////// --> */
+
+.rCourse {
+    width: 100%;
+    min-height: 200px;
+    float: left;
+    /* background-color: lightskyblue; */
+    margin-top: 10px;
+}
+
+.right_bg_img {
+    float: right;
+    padding-top: 62px;
+    padding-right: 100px;
+}
+
+#menu1 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#menu2 p a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#menu2 a,
+#menu1 a {
+    text-decoration: none;
+    color: #212121;
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#menu3 a {
+    text-decoration: none;
+    color: #212121;
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#menu3 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#menu4 a {
+    text-decoration: none;
+    color: #212121;
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#menu4 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.rCourse_mob {
+    width: 100%;
+    min-height: 40px;
+    float: left;
+}
+
+.rCourse_border_mob {
+    width: 100%;
+    min-height: 20px;
+    float: left;
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 25%);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.rCourse_border_mob h3 {
+    color: #004677;
+    margin: 15px 0;
+    padding: 5px 24px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.rCourse_border_mob_red {
+    border-left: 10px solid #ff6765;
+}
+
+.rCourse_border_mob_yellow {
+    border-left: 10px solid #ffa565;
+}
+
+.rCourse_border_mob_green {
+    border-left: 10px solid #84ff65;
+}
+
+.rCourse_border_mob_blue {
+    border-left: 10px solid #517f8e;
+}
+
+.rCourse_border_mob_purpule {
+    border-left: 10px solid #ff0066;
+}
+
+.courses_xeberler {
+    width: 100%;
+    min-height: 400px;
+    float: left;
+    background: linear-gradient(81.8deg, #d0dae3 -48.34%, #eaf0f5 114.07%);
+}
+
+.anons_and_swich {
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anons {
+    width: 45%;
+}
+
+.anons h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #212121;
+}
+
+.swich {
+    width: 45%;
+    padding-top: 15px;
+}
+
+.swich select {
+    padding: 0 15px;
+    width: 100%;
+    height: 44px;
+    background: linear-gradient(249.74deg, #ffffff 0%, #fdfeff 102.2%);
+    border: 1px solid #c8d2d9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.rDocument {
+    width: 100%;
+    min-height: 40px;
+    padding-top: 30px;
+    float: left;
+}
+
+.rDocument h3 {
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #212121;
+}
+
+.rWrite_certificat {
+    width: 100%;
+    min-height: 40px;
+    padding-bottom: 15px;
+}
+
+.rWrite {
+    width: 50%;
+    float: left;
+}
+
+.rWrite p {
+    margin: 10px 0;
+}
+
+.rWrite p a {
+    color: #00a5ca;
+    text-decoration: none;
+}
+
+.rCertificat_carusel {
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+}
+
+.rCertificat {
+    width: 100%;
+    float: left;
+    display: none;
+}
+
+.rimages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.certificat_p {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rCertificat img {
+    width: 440px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ///////////////////   sertificat carusel       */
+
+.slideshow-container {
+    position: relative;
+}
+
+
+/* Slides news */
+
+.mySlides {
+    display: none;
+    padding: 50px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.mySlides img {
+    height: 300px;
+    min-width: 420px;
+}
+
+.mySlides p {
+    text-align: center;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    margin-left: 40px;
+    padding: 16px;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    margin-right: -12px;
+    padding: 16px;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    position: absolute;
+    right: 0;
+}
+
+.content-props-item {
+    padding: 20px 60px;
+}
+
+.content-props-item p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #212121;
+}
+
+.main-page-news-slider_date {
+    font-weight: bold;
+}
+
+p.main-page-news-slider_title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-page-news-slider_link a {
+    color: #2580c3;
+}
+
+@media only screen and (max-width: 1024px) {
+    .right_bg_img {
+        display: none;
+    }
+    .bg_banner {
+        background: url();
+    }
+    .kursa_qeydiyyat {
+        width: 100%;
+    }
+    .courses_xeberler {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .kursa_baslama_vaxti {
+        width: 100%;
+    }
+    .kursa_qeydiyyat_input input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .kursa_baslama_vaxti {
+        display: none;
+    }
+    .mainMenu {
+        display: none;
+    }
+    .noBottomBorder {
+        margin-bottom: 15px;
+    }
+    .noBottomBorder li {
+        margin-top: 10px;
+    }
+    .rWrite {
+        width: 100%;
+    }
+    .rCertificat {
+        display: block;
+    }
+    .rCertificat_carusel {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .Buttom_650 {
+        display: none;
+    }
+    .rClear_650 {
+        display: none;
+    }
+    .rClear_650 a {
+        display: none;
+    }
+    .razrishenni_650 {
+        display: none;
+    }
+    .razrishenni_650 a {
+        display: none;
+    }
+    .rCourse_mob {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .right_bg_img {
+        padding-right: 0;
+    }
+    .mainMenu ul {
+        margin-right: 0px;
+    }
+    .rCertificat_carusel {
+        width: 100%;
+    }
+    .rWrite_certificat {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
